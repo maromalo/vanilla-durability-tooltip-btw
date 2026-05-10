@@ -14,6 +14,14 @@
   "license": "CC-BY-4.0",
   "icon": "assets/vanilla-durability-tooltip/icon.png",
   "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ar.maro.vanilladurabilitytooltip.VanillaDurabilityTooltipMod"
+    ],
+    "btw:addon": [
+      "ar.maro.vanilladurabilitytooltip.VanillaDurabilityTooltipAddon"
+    ]
+  },
   "mixins": [
     "${mod_id}.mixins.json"
   ],
